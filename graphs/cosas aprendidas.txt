@@ -1,0 +1,10 @@
+GENERDOR:
+1. Capas Densas al inicio del genarador no funcionan 
+
+DISCRIMINADOR:
+1. Una funcion de activacion sinusoidal no funciona en la ultima capa densa 
+
+HIPERPARAMETROS:
+1. La inicializacion de los pesos respecto a la normal y de la iniciacion de las bias es imprescindible!!!!!!
+2. No tener miedo a subir lr, 0.01 es el limite en algun caso probado, mejorando notablemente el tiempo y etapas necesarias para entrenar al generador
+3. batch bajos funcionan muy bien (doblando el batch para el generador), cuidado con bajar demasiado, mucho tiempo de entrenamiento cada etapa
